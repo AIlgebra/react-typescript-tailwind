@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Header from './components/Header'; // Header bileşenini içe aktarıyoruz
+import Footer from './components/Footer'; // Header bileşenini içe aktarıyoruz
 
 // Yönlendirme verileri
 const routes = [
@@ -24,6 +25,7 @@ function App() {
                         </Routes>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </Router>
     );
